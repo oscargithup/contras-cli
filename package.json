@@ -6,11 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "npm run serve"
+    "start2": "npm run serve",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "bulma": "^0.8.0",
     "core-js": "^3.4.4",
+    "serve": "^11.3.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },
