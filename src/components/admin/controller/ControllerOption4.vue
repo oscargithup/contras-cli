@@ -135,8 +135,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:4000/controller4';
-
+const API_URL = `${process.env.VUE_APP_DB_HOST}/controller4`;
 
 export default {
   name: 'ControllerOption4',

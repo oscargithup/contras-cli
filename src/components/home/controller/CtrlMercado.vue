@@ -33,8 +33,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:4000/mercado';
-
+const API_URL = `${process.env.VUE_APP_DB_HOST}/mercado`;
 export default {
   name: 'CtrlHome',
   data: () => ({

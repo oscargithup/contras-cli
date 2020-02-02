@@ -33,8 +33,7 @@
 </template>
 
 <script>
-const API_URL = 'http://localhost:4000/home';
-
+const API_URL = `${process.env.VUE_APP_DB_HOST}/home`;
 export default {
   name: 'CtrlHome',
   data: () => ({

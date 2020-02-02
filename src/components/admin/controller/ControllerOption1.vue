@@ -1,5 +1,4 @@
 <template>
-
     <div>
         <div id="table1" class="is-active">
             <h2>Asignación de Vehículo - Ruta</h2>
@@ -176,7 +175,7 @@
             <div class="modal-card">
                 <header class="modal-card-head">
                     <p class="modal-card-title">Eliminar Vehículo - Ruta</p>
-                    <button @click="borrar = !borrar"  class="delete" aria-label="close"/>
+                    <button @click="borrar = !borrar" class="delete" aria-label="close"/>
                 </header>
                 <section class="modal-card-body">
                     <h1 class="subtitle">¿Desea eliminar el registro?</h1></section>
@@ -191,7 +190,7 @@
 
 <script>
 
-const API_URL = 'http://localhost:4000/controller1';
+const API_URL = `${process.env.VUE_APP_DB_HOST}/controller1`;
 
 export default {
   name: 'ControllerOption1',
