@@ -26,7 +26,8 @@ import HomeAdmin from './components/admin/HomeAdmin.vue';
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
-
+// eslint-disable-next-line no-console
+console.log(process.env);
 const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
