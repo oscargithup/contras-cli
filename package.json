@@ -11,6 +11,8 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "core-js": "^3.4.4",
+    "dotenv": "^8.2.0",
+    "serve": "^11.3.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },
