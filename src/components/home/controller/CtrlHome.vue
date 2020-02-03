@@ -45,7 +45,7 @@ export default {
       return this.listRutas;
     },
   },
-  created() {
+  mounted() {
     fetch(API_URL, {
       method: 'GET',
       headers: {
